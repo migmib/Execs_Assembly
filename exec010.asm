@@ -1,8 +1,8 @@
 .data
 
 
-	msg1: .asciiz "\n Digite o seu primeiro número : "
-	msg2: .asciiz "\n Digite o seu segundo número  : "
+	msg1: .asciiz "\n Digite o seu primeiro nÃºmero : "
+	msg2: .asciiz "\n Digite o seu segundo nÃºmero  : "
 	msg3: .asciiz "\n Resto da divisao = "
 	
 
