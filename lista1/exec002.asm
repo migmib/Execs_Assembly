@@ -3,12 +3,12 @@
 
 	msg1: .asciiz "\nCamisetas"
 	msg2: .asciiz "\nPequena - 10 REAIS "
-	msg3: .asciiz "\nMédia - 12 REAIS"
+	msg3: .asciiz "\nMÃ©dia - 12 REAIS"
 	msg4: .asciiz "\nGrande - 15 REAIS "
 	msg5: .asciiz "\nQuantidade de pequenas: "
-    	msg6: .asciiz "\nQuantidade de médias: "
+    	msg6: .asciiz "\nQuantidade de mÃ©dias: "
    	msg7: .asciiz "\nQuantidade de grandes: "
-   	msgTotal: .asciiz "\nO valor total arrecadado é de  "
+   	msgTotal: .asciiz "\nO valor total arrecadado Ã© de  "
    	msg9: .asciiz " REAIS "
 	
 .text
