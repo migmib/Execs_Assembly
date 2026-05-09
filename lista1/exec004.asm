@@ -1,10 +1,10 @@
 .data
 
 
-	msg1: .asciiz "\n Digite a base maior do seu trapézio: "
-	msg2: .asciiz "\n Digite a base menor do seu trapézio: "
-	msg3: .asciiz "\n Digite a altura do seu trapézio: "
-	msg4: .asciiz "\n Seu trapézio tem uma área de  "
+	msg1: .asciiz "\n Digite a base maior do seu trapÃ©zio: "
+	msg2: .asciiz "\n Digite a base menor do seu trapÃ©zio: "
+	msg3: .asciiz "\n Digite a altura do seu trapÃ©zio: "
+	msg4: .asciiz "\n Seu trapÃ©zio tem uma Ã¡rea de  "
 	msg5: .asciiz " metros"
 	
 	
