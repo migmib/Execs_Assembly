@@ -1,8 +1,8 @@
 .data
 
 	msg1: .asciiz "\nDigite uma valor : "
-	msg2: .asciiz "\Digite outro: "
-	msg3: .asciiz "\nA diferença do seu valor maior pelo menor é ="
+	msg2: .asciiz "\nDigite outro: "
+	msg3: .asciiz "\nA diferensa do seu valor maior pelo menor = "
 	
 .text
 
@@ -12,7 +12,7 @@ main:
 
 
 	li $t2, 0 
-	l1 $t3, 0
+	li $t3, 0
 	
 
 	li $v0, 4
@@ -21,30 +21,49 @@ main:
 	
 	li $v0, 5
 	syscall
-	mov $t0, $v0
+	move $t0, $v0
 	
 	
 	li $v0, 4
-	la $a0, msg1
+	la $a0, msg2
 	syscall
 	
 	li $v0, 5
 	syscall
-	mov $t1, $v0
+	move $t1, $v0
 	
-	bgt $t0, $t1, if1
+	bge $t0, $t1, if1
 	
 else1:
-
-
-	mov $t1, $t1
+	move $t2, $t1
+	move $t3, $t0
 	
-	j if2
+	j calcular
 
 if1:
-
-	mov $t1, $t0
 	
+	move $t2, $t0
+	move $t3, $t1
+	
+	
+	
+calcular:
+
+ 	sub $t4, $t2, $t3
+ 	
+ 	li $v0, 4
+	la $a0, msg3
+	syscall
+	
+	li $v0, 1
+	move $a0, $t4
+	syscall
+ 
+ 
+ 
+	
+
+
 	
 	
 	
