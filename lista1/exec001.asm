@@ -3,7 +3,7 @@
 
 	msg1: .asciiz "\n Digite o comprimento do seu terreno:"
 	msg2: .asciiz "\n Digite a largura do seu terreno:"
-	msg3: .asciiz " A área do seu terreno é: \n "
+	msg3: .asciiz " A Ã¡rea do seu terreno Ã©: \n "
 	msg4: .asciiz " metros"
 .text
 main:
