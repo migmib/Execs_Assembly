@@ -1,9 +1,9 @@
 .data
 
 
-	msg1: .asciiz "\nDigite o seu primeiro número : "
-	msg2: .asciiz "\nO seu valor é par, aqui esta ele somado com 5 : \n"
-	msg3: .asciiz "\nO seu valor é impar, aqui esta ele somado com 8 : \n"
+	msg1: .asciiz "\nDigite o seu primeiro nÃºmero : "
+	msg2: .asciiz "\nO seu valor Ã© par, aqui esta ele somado com 5 : \n"
+	msg3: .asciiz "\nO seu valor Ã© impar, aqui esta ele somado com 8 : \n"
 	
 	
 	
