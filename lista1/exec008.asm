@@ -1,9 +1,9 @@
 .data
 
 
-	msg1: .asciiz "\nDigite o seu primeiro número : "
-	msg2: .asciiz "\nO seu valor é posivito, o dobro dele é =  "
-	msg3: .asciiz "\nO seu valor é neagtivo, o triplo dele é = "
+	msg1: .asciiz "\nDigite o seu primeiro nÃºmero : "
+	msg2: .asciiz "\nO seu valor Ã© posivito, o dobro dele Ã© =  "
+	msg3: .asciiz "\nO seu valor Ã© neagtivo, o triplo dele Ã© = "
 	
 	
 .text
