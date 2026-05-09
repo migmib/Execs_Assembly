@@ -3,8 +3,8 @@
 	msg1: .asciiz "\nQuantas horas vc trabalhou ?\n"
 	msg2: .asciiz "\nQuantas tempo de hora extra vc trabalhou ?\n"
 	msg3: .asciiz "\nQunato de desconto vc teve?\n"
-	msg4: .asciiz "\nSeu sal·rio bruto: "
-	msg5: .asciiz "\nSeu sal·rio liquÌdo: "
+	msg4: .asciiz "\nSeu sal√°rio bruto: "
+	msg5: .asciiz "\nSeu sal√°rio liqu√≠do: "
 	
 	
 .text
