@@ -1,10 +1,10 @@
 .data
 
 	msg1: .asciiz "\nDigite um valor: "
-	msg2: .asciiz "\nN˙mero inv·lido digite novamente\n"
-	msg3: .asciiz "\nNo intervalo de 1 atÈ "
+	msg2: .asciiz "\nN√∫mero inv√°lido digite novamente\n"
+	msg3: .asciiz "\nNo intervalo de 1 at√© "
 	msg4: .asciiz " existem "
-	msg5: .asciiz " numeros que n„o s„ı primos"
+	msg5: .asciiz " numeros que n√£o s√£o primos"
 
 .text
 
